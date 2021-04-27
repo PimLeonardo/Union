@@ -1,0 +1,51 @@
+*{
+	color: black;
+}
+
+body{
+	margin: 0;
+	background-color: #147d59;
+}
+
+div.menu{
+	width: 75%;
+	min-width: 250px;
+	background: #006B99;
+	padding: 15px 15px;
+}
+
+div.navegar{
+	overflow: hidden;
+	position: fixed center;
+	background-color: white;
+	top 0;
+	width: 100%;
+	font-size: 17px;
+}
+
+div.navegar a{
+	float: left;
+	display: grey;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+div.navegar a.right{
+	float: right;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+div.navegar img{
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 5px 16px;
+	text-decoration: none;
+}
