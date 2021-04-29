@@ -5,7 +5,7 @@
 <header>
 	<nav class="navbar navbar-expand-sm navbar-light bg-success">
 		<div class="container">
-            <img src="img/logo.png" width="150">
+        	<img src="img/logo.png" width="150">
          	
           	<button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
             	<span class="navbar-toggler-icon"> </span>
