@@ -3,33 +3,19 @@
 ?>
 
 <header>
-	<nav class="navbar navbar-expand-sm navbar-light bg-success">
-		<div class="container">
-        	<img src="img/logo.png" width="150">
-         	
-          	<button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
-            	<span class="navbar-toggler-icon"> </span>
-          	</button>
-
-          	<div class="collapse navbar-collapse" id="nav-principal">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item">
-						<a href="index.php" class="nav-link">Inicio</a>
-					</li>
-					<li class="nav-item">
-						<a href="sobre.php" class="nav-link">Sobre</a>
-					</li>
-					<li class="nav-item">
-						<a href="informacoes.php" class="nav-link">Informações</a>
-					</li>
-					<li class="nav-item">
-						<a href="blog.php" class="nav-link">Blog</a>
-					</li>
-					<li class="nav-item">
-						<a href="contato.php" class="nav-link">Contato</a>
-					</li>
-				</ul>
-			</div>
+	<nav>
+		<a class="logo" href="/"><img src="img/logo.png" width="120"></a>
+		<div class="mobile-menu">
+			<div class="line1"></div>
+			<div class="line2"></div>
+			<div class="line3"></div>
 		</div>
-	</nav>
+		<ul class="nav-list">
+			<li><a href="/">Inicio</a></li>
+			<li><a href="/">Sobre</a></li>
+			<li><a href="/">Informações</a></li>
+			<li><a href="/">Blog</a></li>
+			<li><a href="/">Contato</a></li>
+		</ul>
+	<nav>
 </header>
